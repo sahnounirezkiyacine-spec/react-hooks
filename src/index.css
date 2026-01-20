@@ -1,0 +1,28 @@
+body {
+  background: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.movie-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #222;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+input, button {
+  margin: 5px;
+  padding: 8px;
+}
